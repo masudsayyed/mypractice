@@ -7,26 +7,26 @@ class Switch_Case {
 	public static void main(String arg[]) {
 	
 	Scanner sc = new Scanner(System.in);
-	System.out.println("Enter one letter of gaali: ");
+	System.out.println("Enter one letter of fruits: ");
 	String name = sc.nextLine();
 	sc.close();
 	
 	switch(name.toUpperCase())
 	{
+	case "A":
+	System.out.println("It is an Apple: ");
+	break;
+	
+	case "B":
+	System.out.println("It is a Banana: ");	
+	break;
+	
 	case "C":
-	System.out.println("Chinal hai tu: ");
-	break;
-	
-	case "G":
-	System.out.println("Gandu hai tu: ");	
-	break;
-	
-	case "M":
-	System.out.println("Madarchod hai tu: ");	
+	System.out.println("It is a Cherry: ");	
 	break;
 	
 	default:
-	System.out.println("Bhadwe: ");
+	System.out.println("Write the correct letter: ");
 	}
 	
 }
